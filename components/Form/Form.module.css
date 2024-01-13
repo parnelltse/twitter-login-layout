@@ -1,0 +1,42 @@
+.placeHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    background: transparent;
+    border: 1px solid var(--lightGrey);
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+    color: var(--black);
+    font-weight: 500;
+     
+}
+
+.nextButton{
+    background-color: var(--white);
+    width: 105%;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: 1px var(--grey);
+    font-weight: bolder;
+    color: var(--black);
+}
+.forgotButton{
+    background-color: var(--black);
+    width: 105%;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: 1px var(--grey);
+    font-weight: 500;
+    color: var(--white);
+}
